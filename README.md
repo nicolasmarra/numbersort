@@ -2,8 +2,7 @@
 
 
 Ceci est un jeu de casse-tête dont le but est d'ordonner les chiffres de manière croissante.
-Le jeu a été développé en C# et access pour la gestion de base de données. Les scores des joueurs sont sauvegardés dû l'utilisation de la base de données. 
-
+Le jeu a été développé en C# et access pour la gestion de base de données.
 
 # Comment lancer le jeu?
 
