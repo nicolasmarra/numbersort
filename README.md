@@ -24,9 +24,8 @@ Les 3 niveaux de difficultés de ce mode sont:
 - Moyen: L'utilisateur doit ordonner les chiffrer d'un tableau (4x4) contenant 15 chiffres.
 - Difficile: L'utilisateur doit ordonner les chiffrer d'un tableau (5x5) contenant 24 chiffres. 
 
-* Contre le temps: L'utilisateur doit choisir également le niveau qu'il veut joeur, sauf que dans ce mode chaque niveau est défini par un temps, alors l'utilisateur jouera jusqu'à ce que le temps défini s'écoule.
+* Contre-temps: L'utilisateur doit choisir également le niveau qu'il veut joeur, sauf que dans ce mode chaque niveau est défini par un temps, alors l'utilisateur jouera jusqu'à ce que le temps défini s'écoule.
 Les 3 niveaux de difficultés de ce mode sont: 
-il reussisse à ordonner tous les chiffres
 - Facile: L'utilisateur doit ordonner les chiffrer d'un tableau (3x3) contenant 8 chiffres en 5 minutes.
 - Moyen: L'utilisateur doit ordonner les chiffrer d'un tableau (4x4) contenant 15 chiffres en 4 minutes.
 - Difficile: L'utilisateur doit ordonner les chiffrer d'un tableau (5x5) contenant 24 chiffres en 2 minutes. 
