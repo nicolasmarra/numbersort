@@ -9,7 +9,7 @@ Le jeu a été développé en C# et access pour la gestion de base de données.
 Vous pouvez trouver le fichier exécutable dans :
 
 ```
-./Number_Sort/bin/Debug/Number_Sort.exe
+\Number_Sort\bin\Debug\Number_Sort.exe
 ```
 
 
