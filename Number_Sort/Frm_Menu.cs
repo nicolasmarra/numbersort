@@ -70,15 +70,13 @@ namespace Number_Sort
         private void btn_somnot_Click(object sender, EventArgs e)
         {
             son = true;
-            //btn_som.Visible = true;
-            //btn_somnot.Visible = false;
+            
         }
 
         private void btn_som_Click(object sender, EventArgs e)
         {
             son = false;
-            //btn_somnot.Visible = true;
-            //btn_som.Visible = false;
+            
         }
 
         private void btn_aide_Click(object sender, EventArgs e)

@@ -16,7 +16,7 @@ namespace Number_Sort
         string res,joueur;
         int s = 0, m = 0,t=0;
         int c,n = 4;
-        bool som = true;
+        bool son = true;
         OleDbConnection connexion = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source= " + Application.StartupPath + @"\db_numbersort.mdb"); 
         OleDbDataAdapter adaptateur = new OleDbDataAdapter();
         OleDbCommand cmd = new OleDbCommand();
@@ -25,8 +25,8 @@ namespace Number_Sort
         public Frm_PlayTime(string nom,string coup)
         {
             InitializeComponent();
-            res = nom;
-            joueur = coup;
+            res = coup;
+            joueur = nom;
      
         }
 
@@ -147,7 +147,7 @@ namespace Number_Sort
         {
             int i, j, res;
             int[] vet = new int[9];
-            Boolean ver = false;
+            Boolean voir = false;
             i = 1;
 
             do
@@ -158,14 +158,14 @@ namespace Number_Sort
                 {
                     if (vet[j] == res)
                     {
-                        ver = true;
+                        voir = true;
                         break;
                     }
 
                 }
-                if (ver == true)
+                if (voir == true)
                 {
-                    ver = false;
+                    voir = false;
                 }
                 else
                 {
@@ -220,7 +220,7 @@ namespace Number_Sort
         {
             int i, j, res;
             int[] vet = new int[16];
-            Boolean ver = false;
+            Boolean voir = false;
             i = 1;
 
             do
@@ -231,14 +231,14 @@ namespace Number_Sort
                 {
                     if (vet[j] == res)
                     {
-                        ver = true;
+                        voir = true;
                         break;
                     }
 
                 }
-                if (ver == true)
+                if (voir == true)
                 {
-                    ver = false;
+                    voir = false;
                 }
                 else
                 {
@@ -284,7 +284,7 @@ namespace Number_Sort
         {
             int i, j, res;
             int[] vet = new int[25];
-            Boolean ver = false;
+            Boolean voir = false;
             i = 1;
 
             do
@@ -295,14 +295,14 @@ namespace Number_Sort
                 {
                     if (vet[j] == res)
                     {
-                        ver = true;
+                        voir = true;
                         break;
                     }
 
                 }
-                if (ver == true)
+                if (voir == true)
                 {
-                    ver = false;
+                    voir = false;
                 }
                 else
                 {
@@ -888,21 +888,21 @@ namespace Number_Sort
 
         private void btn_som_Click(object sender, EventArgs e)
         {
-            som = false;
+            son = false;
             btn_sonnot.Visible = true;
             btn_son.Visible = false;
         }
 
         private void btn_somnot_Click(object sender, EventArgs e)
         {
-            som = true;
+            son = true;
             btn_son.Visible = true;
             btn_sonnot.Visible = false;
         }
 
-        private void sombtn()
+        private void sonwin()
         {
-            if (som == true)
+            if (son == true)
             {
 
             }
@@ -911,29 +911,5 @@ namespace Number_Sort
 
             }
         }
-        private void somwin()
-        {
-            if (som == true)
-            {
-
-            }
-            else
-            {
-
-            }
-        }
-        private void somtmr()
-        {
-            if (som == true)
-            {
-
-            }
-            else
-            {
-
-            }
-        }
-    }
-
         
     }
